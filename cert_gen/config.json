@@ -8,7 +8,7 @@
   "boot": "manual",
   "options": {},
   "schema": {},
-  "privileged": ["SYS_ADMIN", "DAC_READ_SEARCH", "DAC_OVERRIDE"],
+  "privileged": ["SYS_ADMIN", "DAC_READ_SEARCH"]
   "stage": "experimental",
   "map": [
     "ssl:rw",
