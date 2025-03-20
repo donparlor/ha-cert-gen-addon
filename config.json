@@ -1,0 +1,17 @@
+{
+  "name": "Cert Gen Add-on",
+  "version": "1.0.0",
+  "slug": "cert_gen",
+  "description": "Generate certificates using OpenSSL in a custom add-on",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "manual",
+  "options": {},
+  "schema": {},
+  "privileged": ["SYS_ADMIN", "DAC_READ_SEARCH", "DAC_OVERRIDE"],
+  "stage": "experimental",
+  "map": [
+    "ssl:rw",
+    "config:rw"
+  ]
+}
